@@ -1,0 +1,104 @@
+html, body {
+  font-family: "Kollektif";
+  font-weight: normal;
+}
+
+a {
+  color: rgb(255, 92, 92);
+}
+
+b, h1 {
+  font-family: "Kollektif-Bold";
+}
+
+.cv-header {
+  background-color: rgba(50, 50, 50, 0.04);
+  padding: 2em 5.5em;
+  padding-top: 10em;
+}
+
+.cv-header h1 {
+  font-size: 4.5em;
+  padding: 0;
+  margin: 0;
+}
+
+.cv-header span {
+  float: right;
+  font-size: 1.5em;
+  color: rgb(255, 92, 92);
+  font-family: "Kollektif-Bold";
+  line-height: 2em;
+}
+
+.cv-content {
+  padding: 4em 5.5em;
+}
+
+.cv-perks {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+.cv-perks > li {
+  width: 100%;
+  margin-bottom: 3em;
+}
+
+.cv-perk-name {
+  width: 30%;
+  margin-left: 0px;
+  display: inline-block;
+  vertical-align: top;
+  padding-right: 1em;
+  box-sizing: border-box;
+
+  color: rgb(255, 92, 92);
+  font-family: "Kollektif-Bold";
+  font-size: 2em;
+  line-height: 1.3em;
+}
+
+.cv-perk-value {
+  width: 70%;
+  margin-left: -5px;
+  display: inline-block;
+  vertical-align: top;
+  text-align: justify;
+  font-size: 1.2em;
+  line-height: 1.4em;
+}
+
+.cv-perk-value ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+.cv-perk-value ul li:not(:last-child) {
+  margin-bottom: 0.1em;
+}
+
+.cv-perk-value ul li:before {
+    content: "•";
+    padding-right: 0.55em;
+    font-size: 1.4em;
+    color: black;
+    position: relative;
+    top: 0.05em;
+}
+
+.working-places b {
+  display: block;
+  padding-bottom: 0.15em;
+}
+
+.working-places > span:not(:first-child) {
+  display: block;
+  padding-top: 1em;
+}
+
+.working-places span:last-child p {
+  margin-bottom: 0;
+}
