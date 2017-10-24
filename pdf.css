@@ -1,3 +1,7 @@
 .extra-margin {
   padding-top: 4.5em;
 }
+
+.download-button {
+  display: none;
+}

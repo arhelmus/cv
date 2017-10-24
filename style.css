@@ -11,6 +11,14 @@ b, h1 {
   font-family: "Kollektif-Bold";
 }
 
+.download-button {
+  width: 100%;
+  background-color: black;
+  padding: 1em 5.5em;
+  box-sizing: border-box;
+  text-align: right;
+}
+
 .cv-header {
   background-color: rgba(50, 50, 50, 0.04);
   padding: 2em 5.5em;
