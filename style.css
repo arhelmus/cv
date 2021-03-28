@@ -88,7 +88,17 @@ b, h1 {
   margin-bottom: 0.1em;
 }
 
-.cv-perk-value ul li:before {
+.activities > span > ul > li {
+  padding-bottom: 0.5em;
+}
+
+.marked-list {
+  padding: 0.05em 0;
+}
+.marked-list li {
+  padding-left: 0.75em;
+}
+.marked-list li:before {
     content: "•";
     padding-right: 0.55em;
     font-size: 1.4em;
