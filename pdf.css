@@ -1,7 +1,16 @@
-.extra-margin {
+.download-button {
+  display: none;
+}
+
+.company b {
+  padding-top: 0.45em;
+}
+
+.page-break {
+  page-break-before: always;
   padding-top: 4.5em;
 }
 
-.download-button {
-  display: none;
+.phase.page-break {
+  padding-top: 13em;
 }

@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
   font-family: "Kollektif";
   font-weight: normal;
 }
@@ -7,7 +8,8 @@ a {
   color: rgb(255, 92, 92);
 }
 
-b, h1 {
+b,
+h1 {
   font-family: "Kollektif-Bold";
 }
 
@@ -50,7 +52,7 @@ b, h1 {
   width: 100%;
 }
 
-.cv-perks > li {
+.cv-perks>li {
   width: 100%;
   margin-bottom: 3em;
 }
@@ -88,23 +90,26 @@ b, h1 {
   margin-bottom: 0.1em;
 }
 
-.activities > span > ul > li {
+.activities>span>ul>li {
   padding-bottom: 0.5em;
 }
 
 .marked-list {
   padding: 0.05em 0;
 }
+
 .marked-list li {
   padding-left: 0.75em;
 }
+
 .marked-list li:before {
-    content: "•";
-    padding-right: 0.55em;
-    font-size: 1.4em;
-    color: black;
-    position: relative;
-    top: 0.05em;
+  content: "•";
+  position: absolute;
+  left: 0;
+  padding-right: 0;
+  font-size: 1.4em;
+  color: black;
+  top: -0.07em;
 }
 
 .working-places b {
@@ -112,11 +117,46 @@ b, h1 {
   padding-bottom: 0.15em;
 }
 
-.working-places > span:not(:first-child) {
+.working-places>span:not(:first-child) {
   display: block;
   padding-top: 1em;
 }
 
 .working-places span:last-child p {
   margin-bottom: 0;
+}
+
+/* Employer line: largest heading in the section */
+.company b {
+  font-size: 1.15em;
+  padding-bottom: 0.25em;
+}
+
+/* Projects: indented under the employer, joined by an accent line */
+.phases {
+  margin-top: 1.4em;
+}
+
+.phase:not(:first-child) {
+  margin-top: 1.6em;
+}
+
+.phase b {
+  font-size: 1em;
+  padding-bottom: 0;
+}
+
+/* Bullets: left-aligned, wrapped lines indent under the text */
+.phase .marked-list {
+  margin: 0.5em 0 0;
+}
+
+.phase .marked-list li {
+  position: relative;
+  padding-left: 1em;
+  text-align: left;
+}
+
+.phase .marked-list li:not(:last-child) {
+  margin-bottom: 0.35em;
 }
